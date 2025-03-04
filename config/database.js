@@ -3,6 +3,7 @@ require('dotenv').config({
   path: path.resolve(process.cwd(), '../', '.env')
 });
 
+
 module.exports = ({ env }) => ({
   connection: {
     client: process.env.DATABASE_CLIENT,
